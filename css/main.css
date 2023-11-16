@@ -44,3 +44,25 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  margin: 4em;
+}
+
+nav ul {
+  display: flex;
+  gap: 4.1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
