@@ -45,6 +45,8 @@ body {
   margin: 0 auto;
 }
 
+/* NavBar Section */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -76,3 +78,5 @@ nav a.active::before {
   border-bottom: 2px solid black;
   bottom: -6px;
 }
+
+/* Hero Section */
