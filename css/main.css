@@ -94,3 +94,14 @@ main {
 .right-col {
   flex-grow: 1;
 }
+
+h1 {
+  font-size: 5.2rem;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  margin: 0;
+}
+
+.subhead {
+  font-size: 1.8rem;
+}
