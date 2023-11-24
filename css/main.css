@@ -169,3 +169,18 @@ p.details {
   font-size: 1.4rem;
   margin: 0;
 }
+
+/* Right column gallery  */
+
+.right-col {
+  display: grid;
+  gap: 2.3em;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas:
+    'left .'
+    'left .';
+}
+
+.card1 {
+  grid-area: left;
+}
