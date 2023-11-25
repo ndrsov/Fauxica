@@ -181,6 +181,22 @@ p.details {
     'left .';
 }
 
+.card {
+  border-radius: 0.8em;
+  padding: 1.1em;
+  display: flex;
+  align-items: end;
+  background-size: 150%;
+}
+
 .card1 {
   grid-area: left;
+  background-image: url('../images/clothing1.jpg');
+}
+
+.card2 {
+  background-image: url('../images/clothing2.jpg');
+}
+.card3 {
+  background-image: url('../images/clothing3.jpg');
 }
