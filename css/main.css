@@ -197,6 +197,17 @@ p.details {
 .card2 {
   background-image: url('../images/clothing2.jpg');
 }
+
 .card3 {
   background-image: url('../images/clothing3.jpg');
+}
+
+.card-details {
+  background: white;
+  border-radius: 0.6em;
+  padding: 2em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
