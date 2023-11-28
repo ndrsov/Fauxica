@@ -198,6 +198,7 @@ p.details {
   display: flex;
   align-items: end;
   background-size: 150%;
+  transition: background-size 800ms;
 }
 
 .card1 {
@@ -233,6 +234,7 @@ p.details {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: transform 800ms;
 }
 
 .card-details a {
@@ -267,4 +269,12 @@ nav a:hover::before {
 
 .secondary-cta:hover svg {
   transform: translateX(10px);
+}
+
+.card:hover {
+  background-size: 160%;
+}
+
+.card:hover .card-details {
+  transform: translateY(-20px);
 }
