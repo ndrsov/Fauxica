@@ -146,6 +146,7 @@ h1 {
 
 .secondary-cta svg {
   width: 20px;
+  transition: transform 0.3s;
 }
 
 .news {
@@ -254,4 +255,16 @@ p.product-price {
 
 nav a:hover::before {
   width: 35%;
+}
+
+.primary-cta:hover {
+  background: #e3d1bd;
+}
+
+.secondary-cta:hover {
+  text-decoration: underline;
+}
+
+.secondary-cta:hover svg {
+  transform: translateX(10px);
 }
