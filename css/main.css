@@ -79,6 +79,16 @@ nav a.active::before {
   bottom: -6px;
 }
 
+nav a::before {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 1px;
+  border-bottom: 2px solid grey;
+  bottom: -6px;
+  transition: width 0.3s;
+}
+
 /* Hero Section */
 
 main {
@@ -238,4 +248,10 @@ p.details {
 
 p.product-price {
   font-size: 1.8rem;
+}
+
+/* Microinteractions  */
+
+nav a:hover::before {
+  width: 35%;
 }
